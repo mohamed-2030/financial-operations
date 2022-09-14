@@ -1,0 +1,32 @@
+.navBar {
+  width: 100%;
+  height: 100px;
+}
+.navBar ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navBar ul li {
+  list-style: none;
+  transition: 0.5s;
+}
+.navBar li a {
+  text-decoration: none;
+  color: var(--seconde-color-bleu);
+  font-size: 20px;
+  font-family: "Lora", serif;
+}
+.navBar li:hover {
+  transform: scale(1.01);
+}
+.link-active {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.link-active:hover {
+  transform: scale(1);
+}

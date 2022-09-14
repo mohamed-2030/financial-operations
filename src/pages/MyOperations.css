@@ -1,0 +1,8 @@
+.MyExpenditurePage {
+  width: 95%;
+  display: flex;
+  margin: auto;
+  height: calc(100vh - 100px);
+  user-select: none;
+  gap: 1%;
+}

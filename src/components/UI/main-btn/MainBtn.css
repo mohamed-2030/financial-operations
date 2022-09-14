@@ -1,0 +1,31 @@
+.mainBtn  {
+  background-color: var(--main-color);
+  width: 200px;
+  text-decoration: none;
+  color: var(--seconde-color-bleu);
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+  transition: 0.5s;
+  margin: 20px;
+}
+.mainBtn  span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.mainBtn  .icon {
+  font-size: 60px;
+}
+.mainBtn:hover {
+  transform: scale(1.01);
+  box-shadow: 80px black;
+}
+.mainBtn:active {
+  background-color: var(--seconde-color-bleu);
+  color: var(--main-color);
+}

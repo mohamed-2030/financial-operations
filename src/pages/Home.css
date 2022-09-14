@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#00c6cf, #7fd1ae);
+}
+
+.homeTitle {
+  flex: 5;
+  font-family: "Nanum Gothic", sans-serif;
+  color: var(--main-color);
+  font-size: 40px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 70px;
+  font-weight: bold;
+}
+.homeBtns {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+}

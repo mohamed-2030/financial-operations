@@ -1,0 +1,85 @@
+.mainBar {
+  flex: 8;
+  background-image: linear-gradient(#00c6cf, #7fd1ae);
+  height: 95%;
+  border-radius: 10px;
+  padding: 0px 20px;
+  user-select: text;
+  position: relative;
+}
+.mainBar .mainBartitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainBar .mainBartitle span {
+  color: var(--main-color);
+  font-size: 20px;
+  padding: 10px 15px;
+  display: inline-block;
+  background-color: var(--seconde-color-bleu);
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.mainBar .operationDetaille {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.mainBar .operationDetaille .operationInfo {
+  margin-top: 40px;
+  color: var(--seconde-color-bleu);
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBar .operationDetaille .operationInfo .info {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.mainBar .operationDetaille .operationInfo .info span {
+  color: black;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+}
+.mainBar .operationDetaille .operationInfo .info i {
+  font-size: 25px;
+  color: var(--seconde-color-green);
+  color: var(--main-color);
+}
+.mainBar .operationDetaille .text {
+}
+.mainBar .operationDetaille .text h3 {
+  display: inline-block;
+  padding: 10px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  color: var(--seconde-color-bleu);
+  font-size: 18px;
+  font-weight: 500;
+}
+.mainBar .operationEdit {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+.mainBar .operationEdit i{
+  margin: 0px 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.mainBar .operationEdit i:hover{
+  transform: scale(1.1);
+}
+.mainBar .operationEdit .editIcon{
+ color: aquamarine;
+}
+.mainBar .operationEdit .deleteIcon{
+  color: red;
+}
